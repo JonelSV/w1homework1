@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  font-size: 40px;
+  color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#container-main {
+  background-color: #6b6885;
   display: flex;
-  flex-direction: column;
+  margin: 20px 20px;
+}
+
+#container-stats {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+#container-graph {
+  background-color: #3e4555;
+  width: 980px;
+  height: 410px;
+  padding: 10px;
+}
+
+#container {
+  
+  background-color:#3e4555;
+  margin: 20px ;
+  border-radius: 5%;
+  opacity: .5;
+}
+.graph {
+  background-color: #3e4555;
+  width: 900px;
+
+}
+.stats {
+  border: 1px solid black;
+  background-color: #333c49;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+  opacity: .8;
+ 
+}
+
+.navigation {
+  color: whitesmoke;
+  height: 300px;
+  list-style-type: none;
+  padding: 90px 20px;
+
+}
+
+#container-flex {
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 20px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+#back-ground {
+  display: flex;
+  background-color: #505870;
+  height: 100vh;
+  width: 100vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sentiment {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.sentiment-numbers1 {
+  margin-top: 10px;
+  color: #b96efa;
+}
+.sentiment-numbers2 {
+  margin-top: 10px;
+  color: #d4fa6e;
+}
+.sentiment-numbers3 {
+  margin-top: 10px;
+  color: #f7504d;
+}
+.glowStats {
+  width: 10px;
+  height: 10px;
+  margin-top: 35px;
+  margin-left: 30px;
+  border-radius: 50%;
+  background-color:#0ff;
+  box-shadow: 5px 5px 4px 10px #0ff;
 }
